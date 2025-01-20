@@ -1,0 +1,88 @@
+body{
+    background: black;
+    color: white;
+    font-family: "Inter", serif;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.converter-card{
+    width: 650px;
+    margin: auto;
+}
+
+.top{
+    background: #0EA5E9;
+    height: 260px;
+    padding: 33px 51px;
+}
+h1{
+    font-weight: 800;
+}
+h1:hover {
+    text-decoration: underline;
+}
+input{
+    display: block;
+    margin: auto;
+    border: 2px solid #0C4A6E;
+    border-radius: 5px;
+    width: 130px;
+    height: 75px;
+    background: fixed;
+    color: white;
+    font-weight: 800;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 30px;
+}
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+button{
+    margin-top: 25px;
+    width: 117px;
+    height: 42px;
+    background: #BAE6FD;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #0C4A6E;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+button:hover {
+    background: #C4B5FD; 
+    color: #FFFFFF;    
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bottom{
+    background: #1F2937;
+    height: 390px;
+    padding: 36px;
+}
+
+.length, .volume, .mass{
+    background: #273549;
+    width: 570px;
+    height: 100px;
+    padding-top: 2px;
+    line-height: 0.7;
+    margin-top: 20px;
+}
+h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: #CCC1FF;
+}
